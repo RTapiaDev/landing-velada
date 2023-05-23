@@ -4,6 +4,14 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <title>La Velada del Año - Un proyecto de Ibai Llanos</title>
+
+    <link
+      rel="preload"
+      href="/fonts/boxing.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
   </head>
   <body class="relative">
     <header class="relative">
@@ -13,7 +21,7 @@
         <img
           class="w-32 lg:w-64 lg:h-auto"
           alt="Logo de la Velada del Año, tercera edición"
-          src="/Logo2.png"
+          src="/Logo2.webp"
         />
         <h1
           class="font-boxing text-[26px] uppercase text-center text-white font-bold"
@@ -187,13 +195,13 @@
 
   @font-face {
     font-family: "Boxing";
-    src: url("/fonts/boxing.ttf");
+    src: url("/fonts/boxing.woff2") format("woff2");
     font-weight: bold;
   }
 
   @font-face {
     font-family: "Boxing Striped";
-    src: url("/fonts/boxing-striped.ttf");
+    src: url("/fonts/boxing-striped.woff2") format("woff2");
     font-weight: bold;
   }
 </style>
